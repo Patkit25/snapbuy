@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/white">
+
+    <EditText
+            android:id="@+id/etGroceryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Grocery Name"
+            android:inputType="text"
+            android:padding="10dp" />
+
+    <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity (e.g., 1kg, 2 packs)"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="8dp" />
+
+    <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Category (e.g., Dairy, Vegetables)"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginTop="8dp" />
+
+    <EditText
+            android:id="@+id/etBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Barcode (Optional)"
+            android:inputType="number"
+            android:padding="10dp"
+            android:layout_marginTop="8dp" />
+
+    <Button
+            android:id="@+id/btnScanBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Barcode"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp" />
+
+    <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Grocery"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp" />
+
+</LinearLayout>

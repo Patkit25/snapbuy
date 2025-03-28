@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grocery_image"
+    tools:context=".WelcomeActivity">
+
+    <!-- Bottom Half: Curved Background -->
+    <LinearLayout
+        android:id="@+id/roundedBackground"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/curved_background"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Page Indicator -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_gray"
+                android:layout_margin="2dp"/>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_green"
+                android:layout_margin="2dp"/>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_gray"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snapbuy"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_gravity="center" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart shopping made easy with Snapbuy!"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+        <!-- Sign Up Button -->
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#6A9E4A"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <!-- Already have an account -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <!-- Sign In Link -->
+        <TextView
+            android:id="@+id/signInText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#6A9E4A"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

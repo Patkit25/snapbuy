@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Snapbuy</string>
+    <string name="default_web_client_id">AIzaSyB7WSkGAm5I-lqBf-QNWg93OapLvyrTVz8</string>
+    <string name="facebook_app_id">3972436276417107</string>
+    <string name="fb_login_protocol_scheme">fb3972436276417107</string>
+</resources>

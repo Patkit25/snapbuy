@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "579644047650",
+    "project_id": "snapbuy-2025",
+    "storage_bucket": "snapbuy-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579644047650:android:66f6716fc64d386a3d657b",
+        "android_client_info": {
+          "package_name": "com.example.snapbuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579644047650-9psngbi8tq3eo7pe46neo96pqkn7fe6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snapbuy",
+            "certificate_hash": "9165b8c9f6b1fc60d330c9a192358fd0ec0c71f7"
+          }
+        },
+        {
+          "client_id": "579644047650-gvmnoc1ovjaprmccuv07o3h7f6hk3974.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7WSkGAm5I-lqBf-QNWg93OapLvyrTVz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579644047650-gvmnoc1ovjaprmccuv07o3h7f6hk3974.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

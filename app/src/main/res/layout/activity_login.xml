@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <!-- Sign In Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi! We’re excited to have you sign in."
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:padding="10dp"
+        android:background="@drawable/input_field_bg"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:background="@drawable/input_field_bg"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Forgot Password -->
+    <TextView
+        android:id="@+id/forgotPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"/>
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign In"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Social Login -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Sign In with"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <!-- Social Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/facebookLogin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/facebook_icon"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/googleLogin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/google_icon"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/appleLogin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/apple_icon"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <!-- Sign Up Link -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to Snapbuy? Sign Up"
+        android:textSize="14sp"
+        android:textColor="@color/green"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/signUpText"/>
+</LinearLayout>
