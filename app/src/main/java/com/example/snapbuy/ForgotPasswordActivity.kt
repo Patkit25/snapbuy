@@ -15,7 +15,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_password)
 
-        //Change 1
+        //Change
 
         // Initialize Firebase Auth
         auth = FirebaseAuth.getInstance()
